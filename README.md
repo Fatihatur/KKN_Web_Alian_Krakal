@@ -43,40 +43,6 @@ Aplikasi Point of Sale dibangun menggunakan beberapa Teknologi diantaranya :
 
 
 
-## Installasi
-
-Lakukan Clone Project/Unduh manual .
-
-Aktifkan Xampp Control Panel, lalu akses ke http://localhost/phpmyadmin/.
-
-Buat database dengan nama 'pos'.
-
-Jika melakukan Clone Project, rename file .env.example dengan env dan hubungkan
-database nya dengan mengisikan nama database, 'DB_DATABASE=pos'.
-
-
-Kemudian, Ketik pada terminal :
-```sh
-php artisan migrate
-```
-
-Lalu ketik juga
-
-```sh
-php artisan migrate:fresh --seed
-```
-
-Jalankan aplikasi 
-
-```sh
-php artisan serve
-```
-
-Akses Aplikasi di Web browser 
-```sh
-127.0.0.1:8000
-```
-
 Demo Login :
 1. Admin
     - email     : admin@gmail.com
